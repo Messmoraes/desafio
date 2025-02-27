@@ -21,11 +21,16 @@ body {
 }
 
 header div {
-    background-color: rgb(48, 168, 33);
+    background: url("./eu1.jpg") center/cover no-repeat;
     border-radius: 50%;
     width: 50px;
     height: 50px;
+}
 
+header div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 }
 
@@ -49,7 +54,6 @@ nav {
 .area {
     display: flex;
     height: calc(100% - 80px);
-
 }
 
 section {
@@ -59,7 +63,6 @@ section {
     justify-items: center;
     display: grid;
     padding-top: 30px;
-
 }
 
 section h3 {
